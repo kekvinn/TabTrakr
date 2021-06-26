@@ -5,7 +5,6 @@ let socialMins = 3;
 let shopMins = 2;
 let edMins = 4;
 let idleMins = 1;
-
 let pieChart = document.getElementById('pieChart').getContext('2d');
 let barChart = document.getElementById('barChart').getContext('2d');
 
@@ -43,7 +42,7 @@ let timeDistributionChart = new Chart(pieChart, {
             title: {
                 display: true,
                 align: 'center',
-                text: 'Time Spent by Tab Classification (Minutes)',
+                text: 'Time Spent (min)',
                 font: {
                     family: "Lato",
                     size: 25,
@@ -86,7 +85,7 @@ let timeByTabChart = new Chart(barChart, {
     data: {
         labels: ['Productivity', 'Entertainment', 'Social', 'Shopping', 'Education', 'Idle'],
         datasets: [{
-            label: 'Time Spent (minutes)',
+            label: 'Time Spent (min)',
             data: [
                 prodMins,
                 enterMins,
@@ -115,7 +114,7 @@ let timeByTabChart = new Chart(barChart, {
             title: {
                 display: true,
                 align: 'center',
-                text: 'Minutes Spent per Tab Classification',
+                text: 'Time Spent (min)',
                 font: {
                     family: "Lato",
                     size: 25,

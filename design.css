@@ -78,7 +78,7 @@ a.navbar {
   background-color: #398600;
 }
 
-.graphContainer{
+.graphAndTextContainer{
   display: flex;
   flex-direction: row;
   margin: 1em auto;
@@ -90,39 +90,45 @@ a.navbar {
 }
 
 .graph{
-  width: 45vw;
-  height: 45vw;
+  width: 35vw;
+  font-family: 'Lato',  sans-serif;
 }
 
-.graphText{
-  margin: auto;
+.graphTextContainer{
+  margin: 0;
   width: 25vw;
   padding: 5vw;
 }
 
 p.graphTitle{
-
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 0 0 0.5em;
 }
 
-p.graphSubtitle{
-
-
-}
+p.graphSubtitle{}
 
 p.graphText{
-
+  padding: 0 0 1em;
+  text-align: justify;
 }
 
-#pieGraphPic{
-  width: 45vw;
-  height: 45vw;
-}
-
-#pieGraphPic2{
-  width: 45vw;
-  height: 45vw;
+#barGraphAndTextContainer{
+  width: 80vw;
+  margin-top: 6vh;
 }
 
 #barGraph{
   margin-bottom: 3vh;
+  width: 55vw;
+}
+
+#barGraphText{
+  width: 20vw;
+  padding-top: 0;
+}
+
+#barGraphContainer{
+  margin-top: 0;
 }
