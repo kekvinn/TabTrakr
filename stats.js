@@ -1,1 +1,7 @@
-// let highestCategory = Math.max(prodMins, enterMins, idleMins, edMins, shopMins, socialMins)
+let total = prodMins + enterMins + idleMins + edMins + shopMins + socialMins;
+
+function determineMost(prodMins, enterMins, idleMins, edMins, shopMins, socialMins)
+{
+
+
+}

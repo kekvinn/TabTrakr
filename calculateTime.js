@@ -10,10 +10,4 @@ function parseJSONData(json) {
 timeline = parseJSONData();
 console.log(timeline)
 
-let prodMins = 3;
-let enterMins = 6;
-let socialMins = 3;
-let shopMins = 2;
-let edMins = 4;
-let idleMins = 1;
 
