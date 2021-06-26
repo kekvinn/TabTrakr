@@ -25,7 +25,7 @@
     </script>
 
     <div class="container" id="chart">
-        <canvas id = "chart1" class="chart"></canvas>
+        <canvas id = "barChart" class="chart"></canvas>
     </div>
 
     <script>
@@ -36,9 +36,9 @@
         let edMins = 4;
         let idleMins = 1;
 
-        let chart1 = document.getElementById('chart1').getContext('2d');
+        let barChart = document.getElementById('barChart').getContext('2d');
 
-        let timeDistributionChart = new Chart(chart1, {
+        let timeByTabChart = new Chart(barChart, {
             type:'bar',
             data:{
                 labels:['Productivity', 'Entertainment', 'Social', 'Shopping', 'Education', 'Idle'],
