@@ -10,6 +10,12 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
+document.addEventListener('mousemove', (event) => {
+    if (event.clientY <= 50){
+        showNavBar("navbar")
+    }
+})
+
 function showNavBar(navBarId) {
     document.getElementById(navBarId).style.top = "0";
 }

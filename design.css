@@ -6,9 +6,9 @@
 
 #navbarHoverThingy{
   width: 99vw;
-  height:10vh;
-  position: fixed; /* Make it stick/fixed */
-  top: 50px;
+  height: 25vh;
+  position: absolute; /* Make it stick/fixed */
+  top: 0;
 }
 
 body {
@@ -69,7 +69,7 @@ a.navbar {
 
 .sectionSubHeading {
     font-size: 1.5em;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight:400;
     padding: 0.2em 0.8em 0.5em 0;
 }
@@ -77,7 +77,7 @@ a.navbar {
 .sectionText {
     font-size: 1.2em;
     margin: 0.5em 0;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     padding: 0 0.5em 0.5em 0px;
 }
 
