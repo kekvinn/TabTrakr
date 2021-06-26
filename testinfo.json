@@ -1,0 +1,128 @@
+{
+    "frames": [
+        {
+            "timeStart": "2021-06-26T16:57:51.332Z",
+            "tabs": [
+                {
+                    "url": "chrome://extensions/",
+                    "title": "Extensions",
+                    "active": true
+                },
+                {
+                    "url": "https://github.com/LunarCoffee",
+                    "title": "LunarCoffee (Fred) · GitHub",
+                    "active": false
+                },
+                {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
+                    "title": "Object.assign() - JavaScript | MDN",
+                    "active": false
+                },
+                {
+                    "url": "chrome://newtab/",
+                    "title": "New Tab",
+                    "active": false
+                }
+            ],
+            "activeTab": {
+                "url": "chrome://extensions/",
+                "title": "Extensions",
+                "active": true
+            },
+            "timeEnd": "2021-06-26T16:57:52.082Z"
+        },
+        {
+            "timeStart": "2021-06-26T16:57:52.082Z",
+            "tabs": [
+                {
+                    "url": "chrome://extensions/",
+                    "title": "Extensions",
+                    "active": false
+                },
+                {
+                    "url": "https://github.com/LunarCoffee",
+                    "title": "LunarCoffee (Fred) · GitHub",
+                    "active": false
+                },
+                {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
+                    "title": "Object.assign() - JavaScript | MDN",
+                    "active": true
+                },
+                {
+                    "url": "chrome://newtab/",
+                    "title": "New Tab",
+                    "active": false
+                }
+            ],
+            "activeTab": {
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
+                "title": "Object.assign() - JavaScript | MDN",
+                "active": true
+            },
+            "timeEnd": "2021-06-26T16:57:52.567Z"
+        },
+        {
+            "timeStart": "2021-06-26T16:57:52.567Z",
+            "tabs": [
+                {
+                    "url": "chrome://extensions/",
+                    "title": "Extensions",
+                    "active": false
+                },
+                {
+                    "url": "https://github.com/LunarCoffee",
+                    "title": "LunarCoffee (Fred) · GitHub",
+                    "active": true
+                },
+                {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
+                    "title": "Object.assign() - JavaScript | MDN",
+                    "active": false
+                },
+                {
+                    "url": "chrome://newtab/",
+                    "title": "New Tab",
+                    "active": false
+                }
+            ],
+            "activeTab": {
+                "url": "https://github.com/LunarCoffee",
+                "title": "LunarCoffee (Fred) · GitHub",
+                "active": true
+            },
+            "timeEnd": "2021-06-26T16:57:53.017Z"
+        },
+        {
+            "timeStart": "2021-06-26T16:57:53.017Z",
+            "tabs": [
+                {
+                    "url": "chrome://extensions/",
+                    "title": "Extensions",
+                    "active": true
+                },
+                {
+                    "url": "https://github.com/LunarCoffee",
+                    "title": "LunarCoffee (Fred) · GitHub",
+                    "active": false
+                },
+                {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
+                    "title": "Object.assign() - JavaScript | MDN",
+                    "active": false
+                },
+                {
+                    "url": "chrome://newtab/",
+                    "title": "New Tab",
+                    "active": false
+                }
+            ],
+            "activeTab": {
+                "url": "chrome://extensions/",
+                "title": "Extensions",
+                "active": true
+            },
+            "timeEnd": "2021-06-26T16:57:53.017Z"
+        }
+    ]
+}

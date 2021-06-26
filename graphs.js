@@ -1,9 +1,3 @@
-let prodMins = 3;
-let enterMins = 6;
-let socialMins = 3;
-let shopMins = 2;
-let edMins = 4;
-let idleMins = 1;
 
 let pieChart = document.getElementById('pieChart').getContext('2d');
 let barChart = document.getElementById('barChart').getContext('2d');
@@ -23,12 +17,12 @@ let timeDistributionChart = new Chart(pieChart, {
                 idleMins
             ],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.6)',
-                'rgba(54, 162, 235, 0.6)',
-                'rgba(255,206, 86, 0.6)',
-                'rgba(75, 206, 86, 0.6)',
-                'rgba(153, 102, 255, 0.6)',
-                'rgba(255, 159, 64, 0.6)'
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255,206, 86, 1)',
+                'rgba(75, 206, 86, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
             ],
             borderWidth: 1,
             borderColor: '#777',
@@ -42,7 +36,7 @@ let timeDistributionChart = new Chart(pieChart, {
             title: {
                 display: true,
                 align: 'center',
-                text: 'Tab Usage Distribution',
+                text: 'Time Usage by Tab Classification',
                 font: {
                     family: "Lato",
                     size: 25,
@@ -95,12 +89,12 @@ let timeByTabChart = new Chart(barChart, {
                 idleMins
             ],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.6)',
-                'rgba(54, 162, 235, 0.6)',
-                'rgba(255,206, 86, 0.6)',
-                'rgba(75, 206, 86, 0.6)',
-                'rgba(153, 102, 255, 0.6)',
-                'rgba(255, 159, 64, 0.6)'
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255,206, 86, 1)',
+                'rgba(75, 206, 86, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
             ],
             borderWidth: 1,
             borderColor: '#777',
