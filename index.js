@@ -10,9 +10,10 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-function showNavBar(navBarId){
+function showNavBar(navBarId) {
     document.getElementById(navBarId).style.top = "0";
 }
-function hideNavBar(navBarId){
+
+function hideNavBar(navBarId) {
     document.getElementById(navBarId).style.top = "-50px";
 }
