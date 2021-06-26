@@ -4,8 +4,8 @@
     border: 0;
 }
 
-body{
-  background-color: #474747;
+body {
+    background-color: #6a6969;
 }
 
 #navbar {
@@ -68,79 +68,80 @@ a.navbar {
 }
 
 .sectionText {
+    font-size: 1.2em;
     margin: 0.5em 0;
     font-family: "Lato";
     padding: 0 0.5em 0.5em 0px;
 }
 
 #home {
-    background-color: #0b67b1;
-}
-
-#graphs {
     background-color: #44930a;
 }
 
-.graphAndTextContainer{
-  display: flex;
-  flex-direction: row;
-  margin: 1em auto;
-  width: 80vw;
+#graphs {
+    background-color: #0b67b1;
 }
 
-#barGraphContainer2{
-  margin-top: 3vw;
+.graphAndTextContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto;
+    width: 80vw;
 }
 
-.graph{
-  width: 35vw;
-  font-family: 'Lato',  sans-serif;
-  margin: 0 auto;
+#barGraphContainer2 {
+    margin-top: 3vw;
 }
 
-.graphTextContainer{
-  margin: 0;
-  width: 25vw;
-  padding: 5vw;
+.graph {
+    width: 35vw;
+    font-family: 'Lato', sans-serif;
 }
 
-p.graphTitle{
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  padding: 0 0 0.5em;
+.graphTextContainer {
+    margin: 0;
+    width: 25vw;
+    padding: 5vw;
 }
 
-p.graphSubtitle{}
-
-p.graphText{
-  padding: 0 0 1em;
-  text-align: justify;
+p.graphTitle {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0 0 0.5em;
 }
 
-#barGraphAndTextContainer{
-  width: 80vw;
-  margin-top: 6vh;
+p.graphSubtitle {
 }
 
-#barGraph{
-  margin-bottom: 3vh;
-  width: 55vw;
+p.graphText {
+    padding: 0 0 1em;
+    text-align: justify;
 }
 
-#barGraphText{
-  width: 20vw;
-  padding-top: 0;
+#barGraphAndTextContainer {
+    width: 80vw;
+    margin-top: 6vh;
 }
 
-#barGraphContainer{
-  margin-top: 0;
+#barGraph {
+    margin-bottom: 3vh;
+    width: 55vw;
+}
+
+#barGraphText {
+    width: 20vw;
+    padding-top: 0;
+}
+
+#barGraphContainer {
+    margin-top: 0;
 }
 
 #stats{
-  background-color: #ae0021;
+  background-color: #aa12ee;
 }
 
 #timeline{
-  background-color: #7cae00;
+  background-color: #a11111;
 }

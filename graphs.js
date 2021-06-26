@@ -43,7 +43,7 @@ let timeDistributionChart = new Chart(pieChart, {
             title: {
                 display: true,
                 align: 'center',
-                text: 'Time Spent by Tab Classification (Minutes)',
+                text: 'Time Spent',
                 font: {
                     family: "Lato",
                     size: 25,
