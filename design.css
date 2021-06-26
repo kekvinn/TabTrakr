@@ -4,8 +4,8 @@
     border: 0;
 }
 
-body {
-    background-color: #474747;
+body{
+  background-color: #474747;
 }
 
 #navbar {
@@ -81,58 +81,66 @@ a.navbar {
     background-color: #44930a;
 }
 
-.graphAndTextContainer {
-    display: flex;
-    flex-direction: row;
-    margin: 1em auto;
-    width: 80vw;
+.graphAndTextContainer{
+  display: flex;
+  flex-direction: row;
+  margin: 1em auto;
+  width: 80vw;
 }
 
-#barGraphContainer2 {
-    margin-top: 3vw;
+#barGraphContainer2{
+  margin-top: 3vw;
 }
 
-.graph {
-    width: 35vw;
-    font-family: 'Lato', sans-serif;
+.graph{
+  width: 35vw;
+  font-family: 'Lato',  sans-serif;
+  margin: 0 auto;
 }
 
-.graphTextContainer {
-    margin: 0;
-    width: 25vw;
-    padding: 5vw;
+.graphTextContainer{
+  margin: 0;
+  width: 25vw;
+  padding: 5vw;
 }
 
-p.graphTitle {
-    font-family: 'Dosis', sans-serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    padding: 0 0 0.5em;
+p.graphTitle{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 0 0 0.5em;
 }
 
-p.graphSubtitle {
+p.graphSubtitle{}
+
+p.graphText{
+  padding: 0 0 1em;
+  text-align: justify;
 }
 
-p.graphText {
-    padding: 0 0 1em;
-    text-align: justify;
+#barGraphAndTextContainer{
+  width: 80vw;
+  margin-top: 6vh;
 }
 
-#barGraphAndTextContainer {
-    width: 80vw;
-    margin-top: 6vh;
+#barGraph{
+  margin-bottom: 3vh;
+  width: 55vw;
 }
 
-#barGraph {
-    margin-bottom: 3vh;
-    width: 55vw;
+#barGraphText{
+  width: 20vw;
+  padding-top: 0;
 }
 
-#barGraphText {
-    width: 20vw;
-    padding-top: 0;
+#barGraphContainer{
+  margin-top: 0;
 }
 
-#barGraphContainer {
-    margin-top: 0;
+#stats{
+  background-color: #ae0021;
+}
+
+#timeline{
+  background-color: #7cae00;
 }
