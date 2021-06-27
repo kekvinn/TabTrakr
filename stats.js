@@ -12,6 +12,7 @@ let mostTimeType = '';
 
 window.onload = function(){
     document.getElementById("mostTime").innerHTML = mostTime.toString();
+    document.getElementById("mostTimeClassification").innerHTML = "in " + mostTimeType;
 };
 
 
@@ -57,3 +58,5 @@ switch (leastTime) {
     case idleMins:
         leastTimeType = 'Idle';
 }
+
+

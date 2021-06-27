@@ -132,21 +132,21 @@ p.graphText {
 }
 
 #barGraph {
-  margin-bottom: 3vh;
-  width: 55vw;
+    margin-bottom: 3vh;
+    width: 55vw;
 }
 
 #barGraphText {
-  width: 20vw;
-  padding-top: 0;
+    width: 20vw;
+    padding-top: 0;
 }
 
 #barGraphContainer {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 #stats {
-  background-color: #aa12ee;
+    background-color: #aa12ee;
 }
 
 .statsContainerContainer {
@@ -172,19 +172,25 @@ p.graphText {
 }
 
 .statsText {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.5em;
-  color: #d560ff;
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: #d560ff;
+    text-align: center;
+}
+
+.statsType{
+  color: #000000;
+  font-size: 1em;
+
 }
 
 .statsTextUnit {
-  padding-left: 0.2em;
+    padding-left: 0.2em;
 }
 
 #timeline {
-  background-color: #a11111;
+    background-color: #a11111;
 }
