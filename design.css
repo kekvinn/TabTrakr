@@ -132,20 +132,20 @@ p.graphText {
 }
 
 #barGraph {
-  margin-bottom: 3vh;
-  width: 55vw;
+    margin-bottom: 3vh;
+    width: 55vw;
 }
 
 #barGraphText {
-  width: 20vw;
-  padding-top: 0;
+    width: 20vw;
+    padding-top: 0;
 }
 
 #barGraphContainer {
-  margin-top: 0;
+    margin-top: 0;
 }
 
-#stats {
+#stats{
   background-color: #aa12ee;
 }
 
@@ -180,5 +180,3 @@ p.graphText {
 #timeline {
   background-color: #a11111;
 }
-
-

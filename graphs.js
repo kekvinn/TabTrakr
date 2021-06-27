@@ -107,7 +107,7 @@ let timeByTabChart = new Chart(barChart, {
             borderColor: '#777',
             hoverBorderWidth: 3,
             hoverBorderColor: '#000',
-            hoverOffset: 5
+            hoverOffset: 70
         }]
     },
     options: {
