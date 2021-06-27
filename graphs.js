@@ -1,11 +1,3 @@
-
-let prodMins = 3;
-let enterMins = 6;
-let socialMins = 3;
-let shopMins = 2;
-let edMins = 4;
-let idleMins = 1;
-
 let pieChart = document.getElementById('pieChart').getContext('2d');
 let barChart = document.getElementById('barChart').getContext('2d');
 
