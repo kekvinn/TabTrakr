@@ -50,12 +50,6 @@ setTimeout(() => {
     shopMins = shopSecs / 60;
     edMins = edSecs / 60;
     idleMins = idleSecs / 60;
-    // prodMins = 3;
-    // enterMins = 6;
-    // socialMins = 3;
-    // shopMins = 2;
-    // edMins = 4;
-    // idleMins = 1;
 
     let total = prodMins + enterMins + idleMins + edMins + shopMins + socialMins;
 
@@ -105,11 +99,11 @@ setTimeout(() => {
             leastTimeType = 'Idle';
     }
 
-    window.onload = function () {
-        document.getElementById("mostTime").innerHTML = mostTime.toString();
-        document.getElementById("mostTimeType").innerHTML = "in " + mostTimeType;
-        document.getElementById("leastTime").innerHTML = leastTime.toString();
-        document.getElementById("leastTimeType").innerHTML = "in " + leastTimeType;
-        document.getElementById("totalTime").innerHTML = total.toString();
-    };
+
+    document.getElementById("mostTime").innerHTML = mostTime.toString();
+    document.getElementById("mostTimeType").innerHTML = "in " + mostTimeType;
+    document.getElementById("leastTime").innerHTML = leastTime.toString();
+    document.getElementById("leastTimeType").innerHTML = "in " + leastTimeType;
+    document.getElementById("totalTime").innerHTML = total.toString();
+
 }, RACE_CONDITION_GAMING) // race condition gaming
