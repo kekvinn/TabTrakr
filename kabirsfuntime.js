@@ -138,12 +138,11 @@ startTime = startTimeDate.getHours() + " : " + startTimeDate.getMinutes()
 let endTimeDate = new Date(endTime)
 endTime = endTimeDate.getHours() + " : " + endTimeDate.getMinutes()
 
-let dataUnit = ""
 
 if (maxActivityTime <= 60000) {
-  dataUnit = "sec";
- else {
-   dataUnit = "min"
+  let dataUnit = "sec"
+} else {
+  let dataUnit = "min"
 }
 
  // Hard coded variables
@@ -184,5 +183,6 @@ if (maxActivityTime <= 60000) {
 
     // total time
     document.getElementById("totalTime").innerHTML = (totalTime / 1000).toString();
-    document.getElementById("totalTimeUnit").innerHTML = dataUnit;};
+    document.getElementById("totalTimeUnit").innerHTML = dataUnit;
+};
 }
