@@ -2,8 +2,6 @@ let timeline;
 
 function setTimeline(tl) {
     timeline = tl;
-    console.log("modcheck");
-    console.log(timeline);
 }
 
 let prodSecs = 0;
