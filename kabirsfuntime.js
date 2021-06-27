@@ -134,41 +134,55 @@ console.log("Session End Time" + endTime)
 console.log("Total Time" + totalTime)
 
 let startTimeDate = new Date(startTime)
-
+startTime = startTimeDate.getHours() + " : " + startTimeDate.getMinutes()
 let endTimeDate = new Date(endTime)
+endTime = endTimeDate.getHours() + " : " + endTimeDate.getMinutes()
+
+let dataUnit = ""
 
 if (maxActivityTime <= 60000) {
+  dataUnit = "sec";
+ else {
+   dataUnit = "min"
+}
+
+ // Hard coded variables
+ //  let mostProductive = 10000;
+ let mostProductiveSite = "GitHub"
+
+  // let mostDistracting = 10000;
+  let mostDistractingSite = "Twitter"
+
   window.onload = function () {
     //most time
     document.getElementById("mostTime").innerHTML = (maxActivityTime / 1000).toString();
-    document.getElementById("mostTimeUnit").innerHTML = "sec";
+    document.getElementById("mostTimeUnit").innerHTML = dataUnit;
     document.getElementById("mostTimeType").innerHTML = "in " + maxActivityTimeType;
 
     //least time
     document.getElementById("leastTime").innerHTML = (minActivityTime / 1000).toString();
-    document.getElementById("leastTimeUnit").innerHTML = "sec";
+    document.getElementById("leastTimeUnit").innerHTML = dataUnit
     document.getElementById("leastTimeType").innerHTML = "in " + minActivityTimeType;
 
     //most productive
-    document.getElementById("mostProductive").innerHTML = (mostProductive / 1000).toString();
-    document.getElementById("mostProductiveUnit").innerHTML = "sec";
-    document.getElementById("mostProductiveSite").innerHTML = "in " + mostProductiveSite;
+    // document.getElementById("mostProductive").innerHTML = (mostProductive / 1000).toString();
+    document.getElementById("mostProductiveUnit").innerHTML = dataUnit
+    document.getElementById("mostProductiveSite").innerHTML = mostProductiveSite;
 
     //least productive
-    document.getElementById("mostDistracting").innerHTML = (mostDistracting / 1000).toString();
-    document.getElementById("mostDistractingUnit").innerHTML = "sec";
-    document.getElementById("mostDistractingSite").innerHTML = "in " + mostDistractingSite;
+    // document.getElementById("mostDistracting").innerHTML = (mostDistracting / 1000).toString();
+    document.getElementById("mostDistractingUnit").innerHTML = dataUnit
+    document.getElementById("mostDistractingSite").innerHTML = mostDistractingSite;
 
     //Session Start
-    document.getElementById("timeStart").innerHTML = (startTime / 1000).toString();
-    document.getElementById("timeStartUnit").innerHTML = "sec";
+    document.getElementById("timeStart").innerHTML = startTime;
+    document.getElementById("timeStartUnit").innerHTML = dataUnit
 
+    //Session End
+    document.getElementById("timeEnd").innerHTML = endTime;
+    document.getElementById("timeEndUnit").innerHTML = dataUnit
 
-
-
+    // total time
     document.getElementById("totalTime").innerHTML = (totalTime / 1000).toString();
-    document.getElementById("totalTimeUnit").innerHTML = "sec";
-
-  };
+    document.getElementById("totalTimeUnit").innerHTML = dataUnit;};
 }
-
