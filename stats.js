@@ -51,12 +51,12 @@ setTimeout(() => {
     edMins = edSecs / 60;
     idleMins = idleSecs / 60;
 
-    let total = prodMins + enterMins + idleMins + edMins + shopMins + socialMins;
+    let total = Math.round(prodMins + enterMins + idleMins + edMins + shopMins + socialMins);
 
-    let mostTime = Math.max(prodMins, enterMins, socialMins, shopMins, edMins, idleMins);
+    let mostTime = Math.round(Math.max(prodMins, enterMins, socialMins, shopMins, edMins, idleMins));
     let mostTimeType = '';
 
-    let leastTime = Math.min(prodMins, enterMins, socialMins, shopMins, edMins, idleMins);
+    let leastTime = Math.round(Math.min(prodMins, enterMins, socialMins, shopMins, edMins, idleMins));
     let leastTimeType = '';
 
     switch (mostTime) {
