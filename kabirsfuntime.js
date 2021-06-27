@@ -139,6 +139,7 @@ let endTimeDate = new Date(endTime)
 endTime = endTimeDate.getHours() + " : " + endTimeDate.getMinutes()
 
 
+let dataUnit = ""
 if (maxActivityTime <= 60000) {
   let dataUnit = "sec"
 } else {
@@ -185,4 +186,3 @@ if (maxActivityTime <= 60000) {
     document.getElementById("totalTime").innerHTML = (totalTime / 1000).toString();
     document.getElementById("totalTimeUnit").innerHTML = dataUnit;
 };
-}
