@@ -1,134 +1,134 @@
 * {
-  padding: 0;
-  margin: 0;
-  border: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 #navbarHoverThingy {
-  width: 99vw;
-  height: 25vh;
-  position: absolute; /* Make it stick/fixed */
-  top: 0;
+    width: 99vw;
+    height: 25vh;
+    position: absolute; /* Make it stick/fixed */
+    top: 0;
 }
 
 body {
-  background-color: #6a6969;
+    background-color: #6a6969;
 }
 
 #navbar {
-  background-color: #333; /* Black background color */
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 99vw; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  border-radius: 0.75em;
-  margin: 0.5em 0.5vw 0 0.5vw;
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 99vw; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    border-radius: 0.75em;
+    margin: 0.5em 0.5vw 0 0.5vw;
 }
 
 /* Style the navbar links */
 a.navbar {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  /*padding: 15px;*/
-  padding: 1em;
-  margin: 0 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  height: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    /*padding: 15px;*/
+    padding: 1em;
+    margin: 0 1em;
+    text-decoration: none;
+    border-radius: 0.25em;
+    height: 95%;
 }
 
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 .webpageSection {
-  border-collapse: separate;
-  width: 99vw; /* Full width */
-  font-family: 'Roboto', sans-serif;
-  border-radius: 0.75em;
-  margin: 2em auto;
-  overflow: hidden;
+    border-collapse: separate;
+    width: 99vw; /* Full width */
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.75em;
+    margin: 2em auto;
+    overflow: hidden;
 }
 
 .sectionContainer {
-  width: 95vw;
-  margin: 0 auto;
+    width: 95vw;
+    margin: 0 auto;
 }
 
 .sectionHeading {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 700;
-  padding: 0.5em 0.5em 0.1em 0;
-  font-size: 2.5em;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    padding: 0.5em 0.5em 0.1em 0;
+    font-size: 2.5em;
 }
 
 .sectionSubHeading {
-  font-size: 1.5em;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  padding: 0.2em 0.8em 0.5em 0;
+    font-size: 1.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding: 0.2em 0.8em 0.5em 0;
 }
 
 .sectionText {
-  font-size: 1.2em;
-  margin: 0.5em 0;
-  font-family: "Lato", sans-serif;
-  padding: 0 0.5em 0.5em 0px;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    font-family: "Lato", sans-serif;
+    padding: 0 0.5em 0.5em 0px;
 }
 
 #home {
-  background-color: #44930a;
+    background-color: #44930a;
 }
 
 #graphs {
-  background-color: #0b67b1;
+    background-color: #0b67b1;
 }
 
 .graphAndTextContainer {
-  display: flex;
-  flex-direction: row;
-  margin: 1em auto;
-  width: 80vw;
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto;
+    width: 80vw;
 }
 
 #barGraphContainer2 {
-  margin-top: 3vw;
+    margin-top: 3vw;
 }
 
 .graph {
-  width: 35vw;
-  font-family: 'Lato', sans-serif;
+    width: 35vw;
+    font-family: 'Lato', sans-serif;
 }
 
 .graphTextContainer {
-  margin: 0;
-  width: 25vw;
-  padding: 5vw;
+    margin: 0;
+    width: 25vw;
+    padding: 5vw;
 }
 
 p.graphTitle {
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  padding: 0 0 0.5em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0 0 0.5em;
 }
 
 p.graphSubtitle {
 }
 
 p.graphText {
-  padding: 0 0 1em;
-  text-align: justify;
+    padding: 0 0 1em;
+    text-align: justify;
 }
 
 #barGraphAndTextContainer {
-  width: 80vw;
-  margin-top: 6vh;
+    width: 80vw;
+    margin-top: 6vh;
 }
 
 #barGraph {
@@ -150,25 +150,25 @@ p.graphText {
 }
 
 .statsContainerContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 96vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 96vw;
 }
 
 .statsContainer {
-  border: 3px solid #540072;
-  margin: 1em 0;
-  width: 22vw;
-  text-align: center;
+    border: 3px solid #540072;
+    margin: 1em 0;
+    width: 22vw;
+    text-align: center;
 }
 
 .statsTitle {
-  font-size: 1.2em;
-  font-family: 'Lato', sans-serif;
-  padding: 0.5em;
-  margin: 0 auto;
-  font-weight: 700;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    padding: 0.5em;
+    margin: 0 auto;
+    font-weight: 700;
 }
 
 .statsText {
@@ -181,9 +181,9 @@ p.graphText {
     text-align: center;
 }
 
-.statsType{
-  color: #000000;
-  font-size: 1em;
+.statsType {
+    color: #000000;
+    font-size: 1em;
 }
 
 .statsTextUnit {

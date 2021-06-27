@@ -10,12 +10,6 @@ let total = prodMins + enterMins + idleMins + edMins + shopMins + socialMins;
 let mostTime = Math.max(prodMins, enterMins, socialMins, shopMins, edMins, idleMins);
 let mostTimeType = '';
 
-window.onload = function(){
-    document.getElementById("mostTime").innerHTML = mostTime.toString();
-    document.getElementById("mostTimeType").innerHTML = "in " + mostTimeType;
-};
-
-
 let leastTime = Math.min(prodMins, enterMins, socialMins, shopMins, edMins, idleMins);
 let leastTimeType = '';
 
@@ -58,5 +52,13 @@ switch (leastTime) {
     case idleMins:
         leastTimeType = 'Idle';
 }
+
+window.onload = function(){
+    document.getElementById("mostTime").innerHTML = mostTime.toString();
+    document.getElementById("mostTimeType").innerHTML = "in " + mostTimeType;
+    document.getElementById("leastTime").innerHTML = leastTime.toString();
+    document.getElementById("leastTimeType").innerHTML = "in " + leastTimeType;
+    document.getElementById("totalTime").innerHTML = total.toString();
+};
 
 
