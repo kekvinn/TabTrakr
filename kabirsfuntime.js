@@ -166,12 +166,12 @@ if (maxActivityTime <= 60000) {
 
     //most productive
     // document.getElementById("mostProductive").innerHTML = (mostProductive / 1000).toString();
-    document.getElementById("mostProductiveUnit").innerHTML = dataUnit
+    // document.getElementById("mostProductiveUnit").innerHTML = dataUnit
     document.getElementById("mostProductiveSite").innerHTML = mostProductiveSite;
 
     //least productive
     // document.getElementById("mostDistracting").innerHTML = (mostDistracting / 1000).toString();
-    document.getElementById("mostDistractingUnit").innerHTML = dataUnit
+    // document.getElementById("mostDistractingUnit").innerHTML = dataUnit
     document.getElementById("mostDistractingSite").innerHTML = mostDistractingSite;
 
     //Session Start
