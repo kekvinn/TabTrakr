@@ -3,7 +3,6 @@ let timeline;
 function setTimeline(tl) {
     timeline = tl;
 }
-
 let prodSecs = 0;
 let enterSecs = 0;
 let socialSecs = 0;

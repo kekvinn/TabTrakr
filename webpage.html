@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>TabTrakr</title>
+  <meta charset="UTF-8">
+  <title>TabTrakr</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js">
@@ -22,191 +22,191 @@
 </head>
 <body>
 
-  <div id="navbar">
-    <a href="#home" class="navbar">Home</a>
-    <a href="#graphs" class="navbar">Graphs</a>
-    <a href="#stats" class="navbar">Stats</a>
-    <a href="#timeline" class="navbar">Timeline</a>
-  </div>
+<div id="navbar">
+  <a href="#home" class="navbar">Home</a>
+  <a href="#graphs" class="navbar">Graphs</a>
+  <a href="#stats" class="navbar">Stats</a>
+  <a href="#timeline" class="navbar">Timeline</a>
+</div>
 
-  <br><br><br>
+<br><br><br>
 
-  <div class="webpageSection" id="home" style="border-collapse: separate; ">
-    <div class="sectionContainer">
-      <div class="sectionHeading">
-        Home
-      </div>
-      <div class="sectionSubHeading">
-        Welcome to TabTrakr!
-      </div>
-      <div class="sectionText">
-        Here is your summary for what you've done so far.
-      </div>
+<div class="webpageSection" id="home" style="border-collapse: separate; ">
+  <div class="sectionContainer">
+    <div class="sectionHeading">
+      Home
+    </div>
+    <div class="sectionSubHeading">
+      Welcome to TabTrakr!
+    </div>
+    <div class="sectionText">
+      Here is your summary for what you've done so far.
     </div>
   </div>
+</div>
 
-  <div class="webpageSection" id="graphs">
-    <div class="sectionContainer">
-      <div class="sectionHeading">
-        Graphs
-      </div>
-      <div class="sectionSubHeading">
-        A Visual Representation of Your time spent
-      </div>
-
-      <div class="graphAndTextContainer">
-        <div id="pieGraph" class="graph">
-          <canvas id="pieChart" class="chart"></canvas>
-        </div>
-        <div id="pieGraphText" class="graphTextContainer">
-          <p class="graphTitle">
-            Circle of Time
-          </p>
-          <p class="graphSubtitle">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <p class="graphText">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
-            eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
-            sequi sunt temporibus, ut.
-          </p>
-          <p class="graphText">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
-            eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
-            sequi sunt temporibus, ut.
-          </p>
-        </div>
-      </div>
-
-      <div class="graphAndTextContainer" id='barGraphAndTextContainer'>
-        <div id="barGraphText" class="graphTextContainer">
-          <p class="graphTitle">
-            Circle of Time
-          </p>
-          <p class="graphSubtitle">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <p class="graphText">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
-            eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
-            sequi sunt temporibus, ut.
-          </p>
-          <p class="graphText">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
-            eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
-            sequi sunt temporibus, ut.
-          </p>
-        </div>
-
-        <div id="barGraph" class="graph">
-          <div id="barGraphContainer">
-            <canvas id="barChart" class="chart"></canvas>
-          </div>
-          <div class="statsText">
-            <p class="statsText" id="mostTimeClassification"></p>
-          </div>
-        </div>
-      </div>
+<div class="webpageSection" id="graphs">
+  <div class="sectionContainer">
+    <div class="sectionHeading">
+      Graphs
     </div>
-  </div>
-
-  <div class="webpageSection" id="stats">
-    <div class="sectionContainer">
-      <div class="sectionHeading">
-        Stats
-      </div>
-      <div class="sectionSubHeading">
-        All Your Most Important Usage Numbers In One Place
-      </div>
-      <div class="statsContainerContainer">
-        <div class="statsContainer">
-
-          <div class="statsTitle">Most Time Spent</div>
-            <div class="statsText">
-                <p class="statsText" id="mostTime"></p>
-                <p class="statsText statsTextUnit">min</p>
-            </div>
-            <div class="statsText">
-                <p class="statsType" id="mostTimeType"></p>
-            </div>
-        </div>
-            <div class="statsContainer">
-                <div class="statsTitle">Least Time Spent</div>
-                <div class="statsText">
-                    <p class="statsText" id="leastTime"></p>
-                    <p class="statsText statsTextUnit">min</p>
-                </div>
-              <div class="statsText">
-                <p class="statsType" id="leastTimeType"></p>
-              </div>
-            </div>
-
-            <div class="statsContainer">
-                <div class="statsTitle">Most Productive Site</div>
-                <div class="statsText">
-                    <p class="statsText" id="mostProductive"></p>
-                    <p class="statsText statsTextUnit">min</p>
-                </div>
-              <div class="statsText">
-                <p class="statsType" id="mostProductiveSite"></p>
-              </div>
-            </div>
-
-            <div class="statsContainer">
-                <div class="statsTitle">Most Distracting Site</div>
-                <div class="statsText">
-                    <p class="statsText" id="leastProductive"></p>
-                    <p class="statsText statsTextUnit">min</p>
-                </div>
-              <div class="statsText">
-                <p class="statsType" id="leastProductiveSite"></p>
-              </div>
-            </div>
-        </div>
-
-        <div class="statsContainerContainer">
-            <div class="statsContainer">
-                <div class="statsTitle">Session Time Start</div>
-                <div class="statsText">
-                    <p class="statsText" id="timeStart"></p>
-                    <p class="statsText statsTextUnit">min</p>
-                </div>
-            </div>
-            <div class="statsContainer">
-                <div class="statsTitle">Session Time End</div>
-                <div class="statsText">
-                    <p class="statsText" id="timeEnd"></p>
-                    <p class="statsText statsTextUnit">min</p>
-                </div>
-            </div>
-            <div class="statsContainer">
-                <div class="statsTitle">Total Time Spent</div>
-                <div class="statsText">
-                    <p class="statsText" id="totalTime"></p>
-                    <p class="statsText statsTextUnit">min</p>
-                </div>
-                <div class="statsText">
-                    <p class="statsType">browsing the internet</p>
-                </div>
-            </div>
-        </div>
-        <div class="statsContainerContainer">
-        </div>
-    </div>
+    <div class="sectionSubHeading">
+      A Visual Representation of Your time spent
     </div>
 
-  <div class="webpageSection" id="timeline">
-    <div class="sectionContainer">
-      <div class="sectionHeading">
-        Timeline
+    <div class="graphAndTextContainer">
+      <div id="pieGraph" class="graph">
+        <canvas id="pieChart" class="chart"></canvas>
       </div>
-      <div class="sectionSubHeading">
-        A Journey of Your Daily Internet Surfing
+      <div id="pieGraphText" class="graphTextContainer">
+        <p class="graphTitle">
+          Circle of Time
+        </p>
+        <p class="graphSubtitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <p class="graphText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
+          eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
+          sequi sunt temporibus, ut.
+        </p>
+        <p class="graphText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
+          eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
+          sequi sunt temporibus, ut.
+        </p>
+      </div>
+    </div>
+
+    <div class="graphAndTextContainer" id='barGraphAndTextContainer'>
+      <div id="barGraphText" class="graphTextContainer">
+        <p class="graphTitle">
+          Circle of Time
+        </p>
+        <p class="graphSubtitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <p class="graphText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
+          eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
+          sequi sunt temporibus, ut.
+        </p>
+        <p class="graphText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda corporis deserunt ea
+          eos esse ipsa labore laudantium libero maxime modi necessitatibus nulla, quidem quisquam recusandae
+          sequi sunt temporibus, ut.
+        </p>
+      </div>
+
+      <div id="barGraph" class="graph">
+        <div id="barGraphContainer">
+          <canvas id="barChart" class="chart"></canvas>
+        </div>
+        <div class="statsText">
+          <p class="statsText" id="mostTimeClassification"></p>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-  <script src="index.js"></script>
-  <script src="graphs.js"></script>
+<div class="webpageSection" id="stats">
+  <div class="sectionContainer">
+    <div class="sectionHeading">
+      Stats
+    </div>
+    <div class="sectionSubHeading">
+      All Your Most Important Usage Numbers In One Place
+    </div>
+    <div class="statsContainerContainer">
+      <div class="statsContainer">
+
+        <div class="statsTitle">Most Time Spent</div>
+        <div class="statsText">
+          <p class="statsText" id="mostTime"></p>
+          <p class="statsText statsTextUnit" id="mostTimeUnit">min</p>
+        </div>
+        <div class="statsText">
+          <p class="statsType" id="mostTimeType"></p>
+        </div>
+      </div>
+      <div class="statsContainer">
+        <div class="statsTitle">Least Time Spent</div>
+        <div class="statsText">
+          <p class="statsText" id="leastTime"></p>
+          <p class="statsText statsTextUnit" id="leastTimeUnit">min</p>
+        </div>
+        <div class="statsText">
+          <p class="statsType" id="leastTimeType"></p>
+        </div>
+      </div>
+
+      <div class="statsContainer">
+        <div class="statsTitle">Most Productive Site</div>
+        <div class="statsText">
+          <p class="statsText" id="mostProductive"></p>
+          <p class="statsText statsTextUnit" id="mostProductiveUnit">min</p>
+        </div>
+        <div class="statsText">
+          <p class="statsType" id="mostProductiveSite"></p>
+        </div>
+      </div>
+
+      <div class="statsContainer">
+        <div class="statsTitle">Most Distracting Site</div>
+        <div class="statsText">
+          <p class="statsText" id="mostDistracting"></p>
+          <p class="statsText statsTextUnit" id="mostDistractingUnit">min</p>
+        </div>
+        <div class="statsText">
+          <p class="statsType" id="mostDistractingSite"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="statsContainerContainer">
+      <div class="statsContainer">
+        <div class="statsTitle">Session Time Start</div>
+        <div class="statsText">
+          <p class="statsText" id="timeStart"></p>
+          <p class="statsText statsTextUnit" id="timeStartUnit">min</p>
+        </div>
+      </div>
+      <div class="statsContainer">
+        <div class="statsTitle">Session Time End</div>
+        <div class="statsText">
+          <p class="statsText" id="timeEnd"></p>
+          <p class="statsText statsTextUnit" id="timeEndUnit">min</p>
+        </div>
+      </div>
+      <div class="statsContainer">
+        <div class="statsTitle">Total Time Spent</div>
+        <div class="statsText">
+          <p class="statsText" id="totalTime"></p>
+          <p class="statsText statsTextUnit" id="totalTimeUnit">min</p>
+        </div>
+        <div class="statsText">
+          <p class="statsType">browsing the internet</p>
+        </div>
+      </div>
+    </div>
+    <div class="statsContainerContainer">
+    </div>
+  </div>
+</div>
+
+<div class="webpageSection" id="timeline">
+  <div class="sectionContainer">
+    <div class="sectionHeading">
+      Timeline
+    </div>
+    <div class="sectionSubHeading">
+      A Journey of Your Daily Internet Surfing
+    </div>
+  </div>
+</div>
+
+<script src="index.js"></script>
+<script src="graphs.js"></script>
 </body>
 </html>

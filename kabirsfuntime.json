@@ -1,0 +1,100 @@
+{
+  "frames":[
+    {
+      "timeStart":"2021-06-27T04:48:50.588Z",
+      "category":"productivity",
+      "tabs":[
+        {
+          "url":"chrome://extensions/",
+          "title":"Extensions",
+          "active":true
+        },
+        {
+          "url":"https://github.com/LunarCoffee",
+          "title":"LunarCoffee (Fred) · GitHub",
+          "active":false
+        },
+        {
+          "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+          "title":"Promise - JavaScript | MDN",
+          "active":false
+        },
+        {
+          "url":"https://developer.mozilla.org/en-US/docs/Web/API/Window/closed",
+          "title":"Window.closed - Web APIs | MDN",
+          "active":false
+        }
+      ],
+      "activeTab":{
+        "url":"chrome://extensions/",
+        "title":"Extensions",
+        "active":true
+      },
+      "timeEnd":"2021-06-27T04:48:57.034Z"
+    },
+    {
+      "timeStart":"2021-06-27T04:48:57.034Z",
+      "category":"education",
+      "tabs":[
+        {
+          "url":"chrome://extensions/",
+          "title":"Extensions",
+          "active":false
+        },
+        {
+          "url":"https://github.com/LunarCoffee",
+          "title":"LunarCoffee (Fred) · GitHub",
+          "active":false
+        },
+        {
+          "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+          "title":"Promise - JavaScript | MDN",
+          "active":true
+        },
+        {
+          "url":"https://developer.mozilla.org/en-US/docs/Web/API/Window/closed",
+          "title":"Window.closed - Web APIs | MDN",
+          "active":false
+        }
+      ],
+      "activeTab":{
+        "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+        "title":"Promise - JavaScript | MDN",
+        "active":true
+      },
+      "timeEnd":"2021-06-27T04:48:59.706Z"
+    },
+    {
+      "timeStart":"2021-06-27T04:48:59.706Z",
+      "category":"entertainment",
+      "tabs":[
+        {
+          "url":"chrome://extensions/",
+          "title":"Extensions",
+          "active":false
+        },
+        {
+          "url":"https://github.com/LunarCoffee",
+          "title":"LunarCoffee (Fred) · GitHub",
+          "active":true
+        },
+        {
+          "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+          "title":"Promise - JavaScript | MDN",
+          "active":false
+        },
+        {
+          "url":"https://developer.mozilla.org/en-US/docs/Web/API/Window/closed",
+          "title":"Window.closed - Web APIs | MDN",
+          "active":false
+        }
+      ],
+      "activeTab":{
+        "url":"https://github.com/LunarCoffee",
+        "title":"LunarCoffee (Fred) · GitHub",
+        "active":true
+      },
+      "timeEnd":"2021-06-27T04:49:06.567Z"
+    }
+  ]
+}
